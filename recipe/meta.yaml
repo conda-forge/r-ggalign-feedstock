@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggalign_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggalign/ggalign_{{ version }}.tar.gz
-  sha256: 7f75fe565bc21b1e6db33dae558d6b6444c86deb74b88b4b6b5c2d1bd78d7247
+  sha256: dea6dd5a75e8f357a52d4a6c88bc92e4cf6cd45b91160cfb694fa07d554213b1
 
 build:
   number: 0
