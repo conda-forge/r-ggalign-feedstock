@@ -7,7 +7,7 @@ Home: https://github.com/Yunuuuu/ggalign, https://yunuuuu.github.io/ggalign/
 
 Package license: MIT
 
-Summary: A 'ggplot2' extension offers various tools for organizing and arranging plots. It is designed to consistently align a specific axis across multiple 'ggplot' objects, making it especially useful for plots requiring data order manipulation. A typical use case includes organizing combinations like a dendrogram and a heatmap.
+Summary: A 'ggplot2' extension providing an integrative framework for composable visualization, enabling the creation of complex multi-plot layouts such as insets, circular arrangements, and multi-panel compositions. Built on the grammar of graphics, it offers tools to align, stack, and nest plots, simplifying the construction of richly annotated figures for high-dimensional data contexts—such as genomics, transcriptomics, and microbiome studies—by making it easy to link related plots, overlay clustering results, or highlight shared patterns.
 
 Current build status
 ====================
