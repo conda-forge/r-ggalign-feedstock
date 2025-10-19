@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggalign_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggalign/ggalign_{{ version }}.tar.gz
-  sha256: dea6dd5a75e8f357a52d4a6c88bc92e4cf6cd45b91160cfb694fa07d554213b1
+  sha256: 34b1b37793e3aea0ab9cf70cee07f950dea6183b9fd3bff8bb16ae8f1d04a4d9
 
 build:
   number: 0
@@ -55,13 +55,8 @@ test:
 about:
   home: https://github.com/Yunuuuu/ggalign, https://yunuuuu.github.io/ggalign/
   license: MIT
-  summary: "A 'ggplot2' extension providing an integrative framework for composable visualization,
-    enabling the creation of complex multi-plot layouts such as insets, circular arrangements,
-    and multi-panel compositions. Built on the grammar of graphics, it offers tools
-    to align, stack, and nest plots, simplifying the construction of richly annotated
-    figures for high-dimensional data contexts\u2014such as genomics, transcriptomics,
-    and microbiome studies\u2014by making it easy to link related plots, overlay clustering
-    results, or highlight shared patterns."
+  summary: "A 'ggplot2' extension providing an integrative framework for composable visualization, enabling the creation of complex multi-plot layouts such as insets, circular arrangements, and multi-panel compositions. Built on the grammar of graphics, it offers tools to align, stack, and nest plots, simplifying the construction
+    of richly annotated figures for high-dimensional data contexts—such as genomics, transcriptomics, and microbiome studies—by making it easy to link related plots, overlay clustering results, or highlight shared patterns."
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
